@@ -1,0 +1,49 @@
+ALGORITHM LIST
+=================================
+
+-----------------------
+ENCRYPTION ALGORITHMS
+-----------------------
+
+tea 
+=======================
+Execution
+./tea <file> <password> <rounds>
+
+
+xtea
+=======================
+Execution
+./xtea <file> <password> <round>
+
+
+-----------------------
+HASH ALGORITHMS
+-----------------------
+
+sha256
+======================
+Execution
+./sha256 <file> <rounds>
+max rounds = 64
+
+
+sha256 ECB mode
+======================
+Execution
+./sha256ecb <file> <rounds>
+max rounds = 64
+
+
+sha256 CBC mode
+=======================
+Execution
+./sha256cbc <file> <rounds>
+max rounds = 64
+
+
+md4
+======================
+Execution
+./md4 <file> <rounds>
+max rounds = 64

@@ -1,0 +1,2 @@
+This algorithm is a modification of the xtea implementation being used in this project.
+This is why it's being used the xtea.h as the header.
